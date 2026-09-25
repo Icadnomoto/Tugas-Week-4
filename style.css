@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+#logo img {
+    width: 80px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #e6007e !important;
+    border-bottom: 3px solid #e6007e;
+}
+
+#client img {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
